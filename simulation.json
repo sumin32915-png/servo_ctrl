@@ -1,5 +1,11 @@
 {
-  "sources": ["src/design.v"],
-  "testbench": "sim/tb_design.v",
-  "simulation_top": "tb_design"
+  "sources": [
+    "src/servo_position.v",
+    "src/servo_pwm.v",
+    "src/servo_ctrl.v",
+    "src/button_onepulse.v",
+    "src/servo_board.v"
+  ],
+  "testbench": "sim/tb_servo_ctrl.sv",
+  "simulation_top": "tb"
 }

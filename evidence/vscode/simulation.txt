@@ -1,0 +1,9 @@
+[1] PASS 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\fpga\servo_ctrl\build\sim\run-0595d0aebb054b5094a4ca55e6d86031\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+PASS servo: 20ms frame, 1/1.5/2ms pulse, limits, reset
+C:\Users\sumin\fpga\servo_ctrl\sim\tb_servo_ctrl.sv:45: $finish called at 100036000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\sumin\fpga\servo_ctrl\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, press any key to close it. 
