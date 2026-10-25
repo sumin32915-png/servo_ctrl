@@ -6,6 +6,6 @@ module servo_position(
 );
     always @(posedge clk_50mhz)
         if(rst_p) pulse_us<=1500;
-        else if(left_pulse && !right_pulse && pulse_us>1000) pulse_us<=pulse_us-100;
+        else if(left_pulse && !right_pulse && pulse_us>1000) pulse_us<=pulse_us-200;
         else if(right_pulse && !left_pulse && pulse_us<2000) pulse_us<=pulse_us+100;
 endmodule
