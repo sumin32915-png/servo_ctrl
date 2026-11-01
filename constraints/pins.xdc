@@ -9,7 +9,7 @@ set_property PACKAGE_PIN N8 [get_ports btn_left]
 set_property PACKAGE_PIN N4 [get_ports btn_right]
 
 # 서보 신호선: 다른 학교 교재(Spartan-6판) 핀. S75에서 미확인
-set_property PACKAGE_PIN Y16 [get_ports servo]
+set_property PACKAGE_PIN A7 [get_ports servo]
 
 # 오실로스코프 관찰용 복제 출력: 브레드보드 I/O 1번
 set_property PACKAGE_PIN E8 [get_ports servo_mon]
